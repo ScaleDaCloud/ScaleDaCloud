@@ -1,0 +1,12 @@
+- [x] Naming the project
+- [x] Choose VCS
+- [x] Setup the project
+- [x] Choose an acceptable project structure
+- [x] Choose stack - Gatsby
+- [x] Setup hosting (netlify)
+- [x] Roughly design the templatte
+- [x] Draft the content
+- [ ] Write code for the template
+- [ ] Optimize the image
+- [ ] Add animation
+- [ ] Customize CSS to look niche
