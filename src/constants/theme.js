@@ -9,7 +9,8 @@ const colors  = {
 const theme = {
   colors: {
     background: colors.black,
-    foregroud: colors.lightgreen,
+    foreground: colors.lightgreen,
+    primary: colors.lightgreen,
     danger: colors.red,
     warning: colors.yellow,
     supporting: colors.brown
