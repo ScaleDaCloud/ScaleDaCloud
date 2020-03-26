@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Start from "../components/start"
 import Services from "../components/services"

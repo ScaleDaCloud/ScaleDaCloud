@@ -14,7 +14,7 @@ import Footer from "../components/footer"
 
 import { theme } from "../constants/theme"
 
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   const style = {
