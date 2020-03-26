@@ -8,8 +8,10 @@ const start = props => {
     fontSize: sizes.font.title,
     fontWeight: "bold",
     background: `linear-gradient(145deg, #f81f01 0%, ${theme.colors.danger} 100%)`,
-    webkitBackgroundClip: "text",
-    webkitTextFillColor: "transparent"
+    WebkitBackgroundClip: "text",
+    backgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    textFillColor: "transparent"
   }
   const serviceStyle = {
     title: {
