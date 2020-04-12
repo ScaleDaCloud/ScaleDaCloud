@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
   >
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-light fixed-top py-3">
       <a href="#" class="navbar-brand">Devls</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="navbar-expand-content" type="button">
         <span class="navbar-toggler-icon"></span>

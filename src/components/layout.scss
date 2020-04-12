@@ -18,3 +18,26 @@
     padding-bottom: ($spacer * 5) !important;
   }
 }
+
+// override bootstrap theme variables
+
+$theme-colors: (
+  "primary": #1D1D24,
+  "danger": #984D51
+);
+
+$dark: #1D1D24;
+$red: #984D51;
+$primary: $red;
+$white: #EBE9E0;
+
+.btn-primary {
+  background: transparent;
+  border: 1px solid $primary;
+  color: $white;
+
+  &:hover {
+    background: $primary;
+    border-color: darken($primary, 10%);
+  }
+}

@@ -13,25 +13,36 @@ const about = props => {
   return (
     <div class="container-fluid py-10" style={ aboutStyle }>
       <div class="row">
-        <div class="col-12 col-md-4">
-          <Image className="img-fluid rounded-right shadow"></Image>
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div>
-                  <h1 style={{ color: theme.colors.primary }}>About</h1>
-                  <p>lorem isump blah lorem isuma aistt</p>
-                </div>
+        <div className="col-12 p-4">
+          <div className="container">
+            <div className="row">
+              <div class="col-12 col-md-4">
+                <Image className="img-fluid shadow"></Image>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div>
-                  <h3>Who we are</h3>
-                  <p>We are a group of technologists around the world</p>
+              <div class="col-12 col-md-8">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div>
+                        <h1 style={{ color: theme.colors.primary }}>About</h1>
+                        <p>
+                          We are polygot developers who can work on different stacks of the system, from frontend to backend, mobile application, infrastructure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div>
+                        <h3>What we do</h3>
+
+                        <p>Your successes on this digital era requires right strategies to pragmatic approaches.</p>
+                        <p>We are helping you to make your own way of success.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

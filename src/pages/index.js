@@ -19,7 +19,6 @@ const IndexPage = () => (
       <About></About>
       <Services></Services>
       <ShowCase></ShowCase>
-      <Contact></Contact>
     </>
   </Layout>
 )
